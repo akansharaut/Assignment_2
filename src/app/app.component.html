@@ -1,1 +1,4 @@
 <app-counter></app-counter>
+<input type="text" #box class="text" 
+(keyup.enter)="onEnter(box.value); box.value=''"/>
+<app-hobby [data]="data"></app-hobby>
